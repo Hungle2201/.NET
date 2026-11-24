@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Chép file này thành App.config trong thư mục project GUI, rồi sửa Server cho đúng máy mình.
+  Mỗi người một file riêng: thêm App.config vào .gitignore, chỉ commit App.config.example.
+-->
+<configuration>
+  <connectionStrings>
+    <add name="QuanLyThuVien"
+         connectionString="Server=.\SQLEXPRESS;Database=QuanLyThuVien;Integrated Security=True;TrustServerCertificate=True;" />
+  </connectionStrings>
+</configuration>

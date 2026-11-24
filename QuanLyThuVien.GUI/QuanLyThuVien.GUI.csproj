@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\QuanLyThuVien.BLL\QuanLyThuVien.BLL.csproj" />
+    <ProjectReference Include="..\QuanLyThuVien.DAL\QuanLyThuVien.DAL.csproj" />
+    <ProjectReference Include="..\QuanLyThuVien.DTO\QuanLyThuVien.DTO.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+</Project>
